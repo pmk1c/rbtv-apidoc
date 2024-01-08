@@ -1,4 +1,4 @@
-import { IHypescoreGameScores } from "../../../response/hypescore";
+// import { IHypescoreGameScores } from "../../../response/hypescore";
 
 export type tContentChangedType = 'hypescore' | 'frontendtheme';
 
@@ -9,7 +9,7 @@ export interface AC_CONTENT_CHANGED<T> {
 
 export interface IHypescoreChangedEvent {
     id: number; // gameid
-    scores: IHypescoreGameScores
+    // scores: IHypescoreGameScores
 };
 
 export interface IFrontendThemeChangedEvent {
